@@ -30,7 +30,7 @@ function App() {
       <section>
         {user ? <SignOut /> : <SignIn />}
         {<Products />}
-        
+        {console.log({user})}
       </section>
     </div>
   )
